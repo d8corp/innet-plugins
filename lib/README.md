@@ -15,7 +15,7 @@ yarn add @innet/plugins
 ```
 
 Or just download a minified js file
-[here](https://github.com/d8corp/innet-plugins/blob/master/lib/innet-plugins.min.js)
+[here](https://github.com/d8corp/innet-plugins/blob/main/lib/innet-plugins.min.js)
 
 ### Using
 ```typescript jsx
@@ -34,3 +34,9 @@ You get this
 ```html
 <span></span><p></p>
 ```
+### Issues
+If you find a bug or have a suggestion, please file an issue on [GitHub](https://github.com/d8corp/innet-plugins/issues).  
+[![issues](https://img.shields.io/github/issues-raw/d8corp/innet-plugins)](https://github.com/d8corp/innet-plugins/issues)
+> ---
+[![stars](https://img.shields.io/github/stars/d8corp/innet-plugins?style=social)](https://github.com/d8corp/innet-plugins/stargazers)
+[![watchers](https://img.shields.io/github/watchers/d8corp/innet-plugins?style=social)](https://github.com/d8corp/innet-plugins/watchers)

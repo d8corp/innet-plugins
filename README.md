@@ -15,7 +15,7 @@ yarn add @innet/plugins
 ```
 
 Or just download a minified js file
-[here](https://github.com/d8corp/innet-plugins/blob/master/lib/innet-plugins.min.js)
+[here](https://github.com/d8corp/innet-plugins/blob/main/lib/innet-plugins.min.js)
 
 ### Using
 ```typescript jsx

@@ -1,6 +1,6 @@
 {
   "name": "@innet/plugins",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "innet plugin to provide other plugins",
   "main": "index.js",
   "module": "index.es6.js",
@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/d8corp/innet-plugins",
   "dependencies": {
-    "innet": "^1.0.0"
+    "innet": "^0.1.0"
   }
 }
