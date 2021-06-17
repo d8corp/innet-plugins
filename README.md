@@ -1,5 +1,11 @@
-# @innet/plugins
+<img src="https://raw.githubusercontent.com/d8corp/innet/main/logo.svg" align="left" width="90" height="90" alt="InnetJs logo by Mikhail Lysikov">
+
+# &nbsp; @innet/plugins
+
+&nbsp;
+
 [![NPM](https://img.shields.io/npm/v/@innet/plugins.svg)](https://github.com/d8corp/innet-plugins/blob/master/CHANGELOG.md)
+[![minzipped size](https://img.shields.io/bundlephobia/minzip/@innet/plugins)](https://bundlephobia.com/result?p=@innet/plugins)
 [![downloads](https://img.shields.io/npm/dm/@innet/plugins.svg)](https://www.npmjs.com/package/@innet/plugins)
 [![license](https://img.shields.io/npm/l/@innet/plugins)](https://github.com/d8corp/innet-plugins/blob/master/LICENSE)  
 This plugin helps to provide other plugins into a peace of application.
@@ -14,21 +20,36 @@ yarn
 yarn add @innet/plugins
 ```
 
-Or just download a minified js file
-[here](https://github.com/d8corp/innet-plugins/blob/main/lib/innet-plugins.min.js)
+Or you can include the scripts into the `head`.
+```html
+<!-- Dependencies (watchState, innet) -->
+<script defer src="https://unpkg.com/watch-state/watch-state.min.js"></script>
+<script defer src="https://unpkg.com/innet/innet.min.js"></script>
+
+<!-- Target (innetPlugins) -->
+<script defer src="https://unpkg.com/@innet/plugins/innet-plugins.min.js"></script>
+```
 
 ### Using
+Provide the plugin to `innet`
 ```typescript jsx
 import innet from 'innet'
-import to from '@innet/to'
 import plugins from '@innet/plugins'
+import app from './app'
 
-innet((
+innet(app, undefined, {plugins})
+```
+
+Then you can use `plugins` to include any plugin inside the content.
+```typescript jsx
+import to from '@innet/to'
+
+export default (
   <>
     <plugins div={to('span')}><div /></plugins>
     <plugins div={to('p')}><div /></plugins>
   </>
-), undefined, {plugins})
+)
 ```
 You get this
 ```html
