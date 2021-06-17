@@ -7,7 +7,8 @@
 [![NPM](https://img.shields.io/npm/v/@innet/plugins.svg)](https://github.com/d8corp/innet-plugins/blob/master/CHANGELOG.md)
 [![minzipped size](https://img.shields.io/bundlephobia/minzip/@innet/plugins)](https://bundlephobia.com/result?p=@innet/plugins)
 [![downloads](https://img.shields.io/npm/dm/@innet/plugins.svg)](https://www.npmjs.com/package/@innet/plugins)
-[![license](https://img.shields.io/npm/l/@innet/plugins)](https://github.com/d8corp/innet-plugins/blob/master/LICENSE)  
+[![license](https://img.shields.io/npm/l/@innet/plugins)](https://github.com/d8corp/innet-plugins/blob/master/LICENSE)
+
 This plugin helps to provide other plugins into a peace of application.
 
 ### Installation
